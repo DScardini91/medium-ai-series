@@ -13,7 +13,7 @@ Série em PT-BR sobre GenAI, agents e agentic systems — um mapa para quem quer
 | # | Post | Capítulo | Status | Link Medium |
 |---|---|---|---|---|
 | 0 | [Mapa da mina](./00-mapa-da-serie/post.md) | 0 — Orientação | 📝 Pronto | _(a publicar)_ |
-| 1 | Da IA clássica aos agentic systems: capivaras e ratos são roedores | 1 — Fundamentos | 🟡 Brief | — |
+| 1 | [Da IA clássica aos agentic systems: capivaras e ratos são roedores](./01-fundamentos/post.md) | 1 — Fundamentos | 📝 Pronto | _(a publicar)_ |
 | 2 | A feliz coincidência que criou o ChatGPT | 1 — Fundamentos | ⏳ Planejado | — |
 | 3 | Quando a IA para de só responder e começa a agir | 1 — Fundamentos | ⏳ Planejado | — |
 | 4 | O que cabe na cabeça de uma IA: a janela de contexto | 2 — Por dentro da inteligência | ⏳ Planejado | — |
