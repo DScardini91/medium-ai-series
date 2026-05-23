@@ -1,8 +1,8 @@
 # Da IA clássica aos agentic systems: capivaras e ratos são roedores, mas é melhor não confundir
 
-**Subtítulo:** Capivara e rato são roedores. IA clássica, ML, LLM, agent e agentic system também. Confundir custa caro em escopo, custo e risco.
+**Subtítulo:** Capivara e rato são roedores, mas não intercambiáveis. IA clássica, ML, LLM, agent e agentic system: mesma família técnica, problemas diferentes. Confundir custa caro em escopo, custo e risco.
 
-![Capítulo 1, Fundamentos](./images/cover.png)
+![Capítulo 1, Fundamentos](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/01-fundamentos/images/cover.png)
 
 ---
 

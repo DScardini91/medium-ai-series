@@ -2,7 +2,7 @@
 
 **Subtítulo:** Mapa de 5 capítulos e 10 posts para decidir vocabulário, profundidade técnica e nível de uso de IA agentic.
 
-![Três adventos, uma mesma curva](./images/hero.png)
+![Três adventos, uma mesma curva](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/00-mapa-da-serie/images/hero.png)
 
 ---
 
@@ -34,7 +34,7 @@ Cada ponto foi pensado pra você se localizar em relação ao seu contexto e his
 
 A série tem 10 posts agrupados em 5 capítulos.
 
-![Mapa da série](./images/arc-map.png)
+![Mapa da série](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/00-mapa-da-serie/images/arc-map.png)
 
 **Capítulo 0, Mapa da mina.** Este post. Para todos os perfis. Mostra por que entender agora importa, e onde começar, dependendo de quanto conhecimento você tem.
 
