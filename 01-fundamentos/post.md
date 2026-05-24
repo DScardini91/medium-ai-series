@@ -34,8 +34,6 @@ Modelos treinados assim, transformer em cima de volumes massivos de texto, são 
 
 ChatGPT chegou em novembro de 2022. Mas o modelo subjacente não era novidade. GPT-3 já estava em API desde junho de 2020, e InstructGPT (variante fine-tuned com RLHF e ancestral direto do ChatGPT) saiu em janeiro de 2022. O que mudou em novembro foi a interface: uma API técnica virou caixa de texto com memória de turno. Salto de distribuição, não de capacidade.
 
-![Da LLM ao ChatGPT](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/01-fundamentos/images/chatgpt-anatomia.png)
-
 Isso importa na hora de escopo. Quando alguém fala em "comprar uma IA generativa", pode estar falando de acesso a um modelo via API ou de uma experiência conversacional pronta para usar. Dois esforços, dois orçamentos, dois timelines.
 
 ## De resposta a ação
