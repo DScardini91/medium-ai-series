@@ -44,6 +44,8 @@ A saída foi dar ferramentas pra LLM usar. Primeiro pra validar: calculadora, bu
 
 Agent não se define pela tecnologia que tem por baixo, e sim pelo loop que ele roda: percebe, decide a ação, executa, observa, decide o próximo passo. E olha que isso não é invenção recente. Agents existem em reinforcement learning desde os anos 80, com marcos como TD-Gammon (1992) e AlphaGo (2016), muito antes de LLM virar assunto. O que mudou foi o substrato: hoje a receita comum é LLM mais ferramentas mais um loop de decisão. Mas a definição vem antes da tecnologia.
 
+![ChatGPT responde, agent age — a diferença está no loop](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/01-fundamentos/images/agent-loop.png)
+
 E o ponto prático é esse: quem usa agent terceiriza julgamento, não só execução.
 
 Então, quando alguém diz "estou usando agent", duas perguntas separam substância de etiqueta — quais ferramentas o agent acessa, e qual loop de decisão ele roda. Sem resposta clara, provavelmente é LLM rebatizada.
