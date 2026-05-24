@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 900" width="1700" height="900">
+  <!-- Post 1 Cover — "Seis termos, uma família"
+       v2: context + periods inside cards; subtitle updated; capivara/rato removed -->
+  <defs>
+    <style>
+      .bg        { fill: #f5f0e6; }
+      .rule      { stroke: rgba(42,40,53,0.22); stroke-width: 1; }
+      .rule-mid  { stroke: rgba(42,40,53,0.18); stroke-width: 0.8; }
+      .header    { font-family:'Helvetica Neue','Inter',sans-serif; font-size:12px; letter-spacing:4px; fill:rgba(42,40,53,0.55); font-weight:500; }
+      .title     { font-family:'Georgia','Didot','Cormorant Garamond',serif; font-size:68px; fill:#2a2835; }
+      .subtitle  { font-family:'Georgia','Didot','Cormorant Garamond',serif; font-size:24px; font-style:italic; fill:rgba(42,40,53,0.6); }
+      .mid-rule  { font-family:'Helvetica Neue','Inter',sans-serif; font-size:10px; letter-spacing:4px; fill:rgba(42,40,53,0.45); font-weight:500; }
+      .arrow     { font-family:'Helvetica Neue','Inter',sans-serif; font-size:14px; fill:rgba(42,40,53,0.35); }
+
+      /* Card internals */
+      .c-label   { font-family:'Helvetica Neue','Inter',sans-serif; font-size:10px; letter-spacing:3.5px; fill:rgba(42,40,53,0.5); font-weight:600; }
+      .c-ctx     { font-family:'Georgia','Didot','Cormorant Garamond',serif; font-size:13px; font-style:italic; fill:rgba(42,40,53,0.62); }
+      .c-name    { font-family:'Georgia','Didot','Cormorant Garamond',serif; font-size:34px; fill:#2a2835; }
+      .c-period  { font-family:'Helvetica Neue','Inter',sans-serif; font-size:11px; letter-spacing:2px; fill:rgba(42,40,53,0.48); }
+
+      /* Icons */
+      .icon-s    { stroke:rgba(42,40,53,0.55); stroke-width:1.2; fill:none; }
+      .icon-f    { fill:rgba(42,40,53,0.5); }
+      .icon-sf   { stroke:rgba(42,40,53,0.5); stroke-width:1.2; fill:rgba(42,40,53,0.08); }
+
+      /* Footer */
+      .footer    { font-family:'Helvetica Neue','Inter',sans-serif; font-size:11px; letter-spacing:2.4px; fill:rgba(42,40,53,0.4); }
+    </style>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,1 L8,5 L0,9 z" fill="rgba(42,40,53,0.35)"/>
+    </marker>
+  </defs>
+
+  <!-- Ground -->
+  <rect x="0" y="0" width="1700" height="900" class="bg"/>
+
+  <!-- Header -->
+  <line x1="75" y1="72" x2="1625" y2="72" class="rule"/>
+  <text x="75"   y="57" class="header">SÉRIE · CAPÍTULO 1 · FUNDAMENTOS</text>
+  <text x="1625" y="57" class="header" text-anchor="end">PL.  01 / V</text>
+
+  <!-- Penguin (top-right decoration) -->
+  <circle cx="1430" cy="148" r="16" fill="none" stroke="rgba(42,40,53,0.4)" stroke-width="1.2"/>
+  <ellipse cx="1430" cy="178" rx="12" ry="18" fill="none" stroke="rgba(42,40,53,0.4)" stroke-width="1.2"/>
+  <line x1="1423" y1="196" x2="1420" y2="210" stroke="rgba(42,40,53,0.35)" stroke-width="1.2"/>
+  <line x1="1437" y1="196" x2="1440" y2="210" stroke="rgba(42,40,53,0.35)" stroke-width="1.2"/>
+
+  <!-- Title -->
+  <text x="850" y="168" class="title" text-anchor="middle">Seis termos, uma família</text>
+  <!-- Mid rule -->
+  <line x1="75" y1="232" x2="1625" y2="232" class="rule-mid"/>
+
+  <!-- ================================================================
+       6 CARDS — y=268, height=416, bottom=684
+       x positions: 75 | 335 | 595 | 855 | 1115 | 1375
+       width: 248, gap: 12
+       ================================================================ -->
+
+  <!-- CARD 1 — IA clássica (#e0d5be) -->
+  <rect x="75"  y="268" width="248" height="416" rx="10" fill="#e0d5be"/>
+  <text x="199" y="298" class="c-label" text-anchor="middle">TERMO  01</text>
+  <!-- Context -->
+  <text x="199" y="322" class="c-ctx" text-anchor="middle">regras escritas à mão</text>
+  <text x="199" y="340" class="c-ctx" text-anchor="middle">não consegue generalizar</text>
+  <!-- Icon: decision tree -->
+  <circle cx="199" cy="380" r="5" class="icon-sf"/>
+  <line x1="199" y1="385" x2="178" y2="410" class="icon-s"/>
+  <line x1="199" y1="385" x2="220" y2="410" class="icon-s"/>
+  <circle cx="178" cy="413" r="4" class="icon-sf"/>
+  <circle cx="220" cy="413" r="4" class="icon-sf"/>
+  <line x1="178" y1="417" x2="166" y2="438" class="icon-s"/>
+  <line x1="178" y1="417" x2="190" y2="438" class="icon-s"/>
+  <line x1="220" y1="417" x2="208" y2="438" class="icon-s"/>
+  <line x1="220" y1="417" x2="232" y2="438" class="icon-s"/>
+  <rect x="158" y="438" width="16" height="10" rx="2" class="icon-sf"/>
+  <rect x="182" y="438" width="16" height="10" rx="2" class="icon-sf"/>
+  <rect x="200" y="438" width="16" height="10" rx="2" class="icon-sf"/>
+  <rect x="224" y="438" width="16" height="10" rx="2" class="icon-sf"/>
+  <!-- Name + period -->
+  <text x="199" y="558" class="c-name" text-anchor="middle">IA clássica</text>
+  <text x="199" y="592" class="c-period" text-anchor="middle">anos  70–90</text>
+
+  <!-- Arrow 1→2 -->
+  <text x="330" y="480" class="arrow" text-anchor="middle">→</text>
+
+  <!-- CARD 2 — Machine learning (#cfbe98) -->
+  <rect x="335" y="268" width="248" height="416" rx="10" fill="#cfbe98"/>
+  <text x="459" y="298" class="c-label" text-anchor="middle">TERMO  02</text>
+  <!-- Context -->
+  <text x="459" y="322" class="c-ctx" text-anchor="middle">aprende com exemplos</text>
+  <text x="459" y="340" class="c-ctx" text-anchor="middle">ajusta parâmetros sozinho</text>
+  <!-- Icon: regression line + scatter -->
+  <line x1="430" y1="445" x2="488" y2="375" class="icon-s"/>
+  <circle cx="436" cy="440" r="3.2" class="icon-f"/>
+  <circle cx="443" cy="430" r="3.2" class="icon-f"/>
+  <circle cx="451" cy="428" r="3.2" class="icon-f"/>
+  <circle cx="448" cy="415" r="3.2" class="icon-f"/>
+  <circle cx="459" cy="418" r="3.2" class="icon-f"/>
+  <circle cx="462" cy="405" r="3.2" class="icon-f"/>
+  <circle cx="470" cy="400" r="3.2" class="icon-f"/>
+  <circle cx="476" cy="390" r="3.2" class="icon-f"/>
+  <circle cx="483" cy="384" r="3.2" class="icon-f"/>
+  <!-- Name + period -->
+  <text x="459" y="558" class="c-name" text-anchor="middle">Machine</text>
+  <text x="459" y="598" class="c-name" text-anchor="middle">learning</text>
+  <text x="459" y="632" class="c-period" text-anchor="middle">anos  2010</text>
+
+  <!-- Arrow 2→3 -->
+  <text x="590" y="480" class="arrow" text-anchor="middle">→</text>
+
+  <!-- CARD 3 — Generativa (#d4aba2) -->
+  <rect x="595" y="268" width="248" height="416" rx="10" fill="#d4aba2"/>
+  <text x="719" y="298" class="c-label" text-anchor="middle">TERMO  03</text>
+  <!-- Context -->
+  <text x="719" y="322" class="c-ctx" text-anchor="middle">cria conteúdo novo</text>
+  <text x="719" y="340" class="c-ctx" text-anchor="middle">não executa ações</text>
+  <!-- Icon: generative / transformer antenna -->
+  <circle cx="719" cy="430" r="6" class="icon-sf"/>
+  <line x1="694" y1="430" x2="694" y2="375" class="icon-s"/>
+  <line x1="703" y1="430" x2="703" y2="380" class="icon-s"/>
+  <line x1="712" y1="430" x2="712" y2="370" class="icon-s"/>
+  <line x1="719" y1="424" x2="719" y2="365" class="icon-s"/>
+  <line x1="726" y1="430" x2="726" y2="370" class="icon-s"/>
+  <line x1="735" y1="430" x2="735" y2="380" class="icon-s"/>
+  <line x1="744" y1="430" x2="744" y2="375" class="icon-s"/>
+  <circle cx="694" cy="373" r="3" class="icon-f"/>
+  <circle cx="703" cy="378" r="3" class="icon-f"/>
+  <circle cx="712" cy="368" r="3" class="icon-f"/>
+  <circle cx="719" cy="363" r="3" class="icon-f"/>
+  <circle cx="726" cy="368" r="3" class="icon-f"/>
+  <circle cx="735" cy="378" r="3" class="icon-f"/>
+  <circle cx="744" cy="373" r="3" class="icon-f"/>
+  <!-- Name + period -->
+  <text x="719" y="568" class="c-name" text-anchor="middle">Generativa</text>
+  <text x="719" y="602" class="c-period" text-anchor="middle">2017</text>
+
+  <!-- Arrow 3→4 -->
+  <text x="850" y="480" class="arrow" text-anchor="middle">→</text>
+
+  <!-- CARD 4 — LLM (#bfacc0) -->
+  <rect x="855" y="268" width="248" height="416" rx="10" fill="#bfacc0"/>
+  <text x="979" y="298" class="c-label" text-anchor="middle">TERMO  04</text>
+  <!-- Context -->
+  <text x="979" y="322" class="c-ctx" text-anchor="middle">prevê o próximo token</text>
+  <text x="979" y="340" class="c-ctx" text-anchor="middle">substrato de tudo que vem depois</text>
+  <!-- Icon: context window blocks -->
+  <rect x="898" y="378" width="34" height="12" rx="2" class="icon-sf"/>
+  <rect x="936" y="378" width="34" height="12" rx="2" class="icon-sf"/>
+  <rect x="974" y="378" width="34" height="12" rx="2" class="icon-sf"/>
+  <rect x="1012" y="378" width="28" height="12" rx="2" class="icon-sf"/>
+  <rect x="898" y="396" width="34" height="12" rx="2" class="icon-sf"/>
+  <rect x="936" y="396" width="34" height="12" rx="2" class="icon-sf"/>
+  <rect x="974" y="396" width="28" height="12" rx="2" class="icon-sf"/>
+  <rect x="906" y="414" width="34" height="12" rx="2" class="icon-s" stroke-dasharray="3 3"/>
+  <rect x="944" y="414" width="34" height="12" rx="2" class="icon-s" stroke-dasharray="3 3"/>
+  <rect x="982" y="414" width="34" height="12" rx="2" class="icon-s" stroke-dasharray="3 3"/>
+  <rect x="1020" y="414" width="18" height="12" rx="2" fill="rgba(42,40,53,0.4)"/>
+  <!-- Name + period -->
+  <text x="979" y="568" class="c-name" text-anchor="middle">LLM</text>
+  <text x="979" y="602" class="c-period" text-anchor="middle">2017 +  ·  substrato</text>
+
+  <!-- Arrow 4→5 -->
+  <text x="1110" y="480" class="arrow" text-anchor="middle">→</text>
+
+  <!-- CARD 5 — Agent (#a9bda9) -->
+  <rect x="1115" y="268" width="248" height="416" rx="10" fill="#a9bda9"/>
+  <text x="1239" y="298" class="c-label" text-anchor="middle">TERMO  05</text>
+  <!-- Context -->
+  <text x="1239" y="322" class="c-ctx" text-anchor="middle">percebe · decide · age · observa</text>
+  <text x="1239" y="340" class="c-ctx" text-anchor="middle">loop autônomo</text>
+  <!-- Icon: loop arrow -->
+  <circle cx="1239" cy="408" r="32" fill="none" stroke="rgba(42,40,53,0.5)" stroke-width="1.3"
+          stroke-dasharray="none"
+          fill-opacity="0"/>
+  <!-- Open arc: draw 270° of circle, leave gap at top for arrowhead -->
+  <path d="M 1239,376 A 32,32 0 1,1 1209,424" fill="none" stroke="rgba(42,40,53,0.5)" stroke-width="1.4"/>
+  <!-- Arrow at end of arc -->
+  <polygon points="1207,424 1200,415 1214,412" fill="rgba(42,40,53,0.5)"/>
+  <!-- Center dot -->
+  <circle cx="1239" cy="408" r="4" fill="rgba(42,40,53,0.5)"/>
+  <!-- Name + period -->
+  <text x="1239" y="568" class="c-name" text-anchor="middle">Agent</text>
+  <text x="1239" y="602" class="c-period" text-anchor="middle">anos  2020  ·  loop</text>
+
+  <!-- Arrow 5→6 -->
+  <text x="1370" y="480" class="arrow" text-anchor="middle">→</text>
+
+  <!-- CARD 6 — Agentic system (#a9b4c8) -->
+  <rect x="1375" y="268" width="248" height="416" rx="10" fill="#a9b4c8"/>
+  <text x="1499" y="298" class="c-label" text-anchor="middle">TERMO  06</text>
+  <!-- Context -->
+  <text x="1499" y="322" class="c-ctx" text-anchor="middle">múltiplos agents juntos</text>
+  <text x="1499" y="340" class="c-ctx" text-anchor="middle">orquestração e coordenação</text>
+  <!-- Icon: network / multi-agent -->
+  <!-- Central node -->
+  <circle cx="1499" cy="408" r="6" class="icon-sf"/>
+  <!-- 6 surrounding nodes -->
+  <circle cx="1499" cy="376" r="4.5" class="icon-sf"/>
+  <circle cx="1527" cy="392" r="4.5" class="icon-sf"/>
+  <circle cx="1527" cy="424" r="4.5" class="icon-sf"/>
+  <circle cx="1499" cy="440" r="4.5" class="icon-sf"/>
+  <circle cx="1471" cy="424" r="4.5" class="icon-sf"/>
+  <circle cx="1471" cy="392" r="4.5" class="icon-sf"/>
+  <!-- Edges center → outer -->
+  <line x1="1499" y1="402" x2="1499" y2="381" class="icon-s"/>
+  <line x1="1504" y1="403" x2="1523" y2="395" class="icon-s"/>
+  <line x1="1504" y1="413" x2="1523" y2="421" class="icon-s"/>
+  <line x1="1499" y1="414" x2="1499" y2="436" class="icon-s"/>
+  <line x1="1494" y1="413" x2="1475" y2="421" class="icon-s"/>
+  <line x1="1494" y1="403" x2="1475" y2="395" class="icon-s"/>
+  <!-- A few cross-edges for "system" feel -->
+  <line x1="1499" y1="376" x2="1527" y2="392" class="icon-s" stroke-opacity="0.4"/>
+  <line x1="1527" y1="424" x2="1499" y2="440" class="icon-s" stroke-opacity="0.4"/>
+  <line x1="1471" y1="392" x2="1471" y2="424" class="icon-s" stroke-opacity="0.4"/>
+  <!-- Name + period -->
+  <text x="1499" y="558" class="c-name" text-anchor="middle">Agentic</text>
+  <text x="1499" y="598" class="c-name" text-anchor="middle">system</text>
+  <text x="1499" y="632" class="c-period" text-anchor="middle">hoje  ·  múltiplos</text>
+
+  <!-- Footer -->
+  <line x1="75" y1="775" x2="1625" y2="775" class="rule-mid"/>
+  <text x="850" y="802" class="footer" text-anchor="middle">seis termos  ·  uma família técnica  ·  problemas, custos e riscos diferentes</text>
+
+  <line x1="75" y1="840" x2="1625" y2="840" class="rule-mid"/>
+  <text x="75"   y="862" class="footer">série medium  ·  capítulo 1  ·  daniel scardini</text>
+  <text x="1625" y="862" class="footer" text-anchor="end">plate 01  ·  fundamentos</text>
+</svg>
