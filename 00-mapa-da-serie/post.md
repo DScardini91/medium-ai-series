@@ -2,7 +2,7 @@
 
 **Subtítulo:** Mapa de 5 capítulos e 10 posts para decidir vocabulário, profundidade técnica e nível de uso de IA agentic.
 
-![Três adventos, uma mesma curva](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/00-mapa-da-serie/images/hero.png)
+![Três adventos, uma mesma curva]
 
 ---
 
