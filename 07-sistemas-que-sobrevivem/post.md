@@ -4,13 +4,13 @@
 
 ---
 
-A maioria dos sistemas agentic que vejo em produção não morreu de uma falha catastrófica. Morreu de degradação silenciosa. Funcionou bem no primeiro mês, ficou instável no segundo, e foi desligado no terceiro por custo de manutenção que não estava no plano.
+A maioria dos sistemas agentic que falham não morre de falha catastrófica. Morre de degradação silenciosa. Funcionou bem no primeiro mês, ficou instável no segundo, e foi desligado no terceiro por custo de manutenção que não estava no plano.
 
 Os que sobrevivem têm três componentes em comum. Os que quebram ignoraram pelo menos um.
 
 ## O que mata sistemas agentic
 
-Antes das soluções, o diagnóstico. Os três padrões de falha mais comuns que encontro.
+Antes das soluções, o diagnóstico. Três padrões de falha que aparecem com consistência.
 
 Primeiro: contexto sem gestão. O sistema funciona em tarefas curtas. Em tarefas longas ou em uso contínuo, perde coerência porque ninguém projetou como o contexto cresce, é comprimido e recuperado. O agent começa a contradizer decisões anteriores porque elas saíram da janela.
 
@@ -40,7 +40,7 @@ Contexto suficiente: o agent que recebe o handoff precisa ter o que precisa para
 
 Verificação de recebimento: o sistema confirma que o handoff foi processado antes de prosseguir. Handoff silencioso que falha sem sinalizar produz trabalho subsequente sobre base incorreta.
 
-Nos projetos que funcionaram por mais de seis meses, o contrato de handoff estava documentado antes de o código estar escrito.
+Sistemas que ficam em produção por mais de seis meses têm um padrão em comum: o contrato de handoff foi documentado antes de o código estar escrito.
 
 ## O supervisor que sabe parar
 
@@ -50,7 +50,7 @@ Parar pode significar: tarefa concluída com sucesso, tarefa concluída com falh
 
 Um supervisor fraco aprova tudo o que o agent entrega. Um supervisor ausente deixa o sistema em loop quando algo dá errado. Um supervisor bem projetado tem critérios explícitos para cada condição de parada e escala para o humano apenas nos casos que realmente exigem julgamento.
 
-O ponto que mais vejo negligenciado: o supervisor precisa ter visão do estado do sistema, não apenas da última saída do agent. Um agent que produziu boa saída individual mas que está no turno 47 de uma tarefa que deveria ter terminado no turno 10 está em loop. Só o supervisor com visão de sequência consegue detectar isso.
+O componente mais frequentemente negligenciado: o supervisor precisa ter visão do estado do sistema, não apenas da última saída do agent. Um agent que produziu boa saída individual mas que está no turno 47 de uma tarefa que deveria ter terminado no turno 10 está em loop. Só o supervisor com visão de sequência consegue detectar isso.
 
 ## O que não precisa ser perfeito de início
 

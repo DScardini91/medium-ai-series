@@ -32,7 +32,7 @@ Segunda pergunta: o sistema executa mais de um passo sem intervenção humana en
 
 Terceira pergunta: quem define o critério de parada? Se o humano decide quando terminar a cada turno, o loop está no humano. Agent de verdade tem critério de conclusão embutido.
 
-Essas três perguntas separam substância de etiqueta. Em projetos que conheço, a diferença vira custo real: agents que não são agents têm latência de humano em cada passo; agents reais sem critério de parada entram em loop.
+Essas três perguntas separam substância de etiqueta. A diferença vira custo real: sistemas sem ferramenta real têm latência de humano em cada passo; sistemas com autonomia real sem critério de parada entram em loop.
 
 ## O que muda quando se delega ação, não resposta
 
@@ -42,7 +42,7 @@ Delegação de ação tem consequências no mundo real. O agent que escreve emai
 
 Isso muda a conversa sobre governança. Quem usa LLM terceiriza julgamento sobre linguagem. Quem usa agent terceiriza julgamento sobre ação. São ordens de responsabilidade diferentes.
 
-O critério prático que uso para avaliar se um sistema merece ser chamado de agent: ele consegue atingir um objetivo de múltiplos passos, com ferramentas reais, com critério de parada definido, sem intervenção humana em cada turno. Se sim, é agent. Se não, pode ser útil de outras formas, mas é outra coisa.
+O critério que separa agent de substância de agent de etiqueta: o sistema consegue atingir um objetivo de múltiplos passos, com ferramentas reais, com critério de parada definido, sem intervenção humana em cada turno. Se sim, é agent. Se não, pode ser útil de outras formas, mas é outra coisa.
 
 ## O próximo problema
 

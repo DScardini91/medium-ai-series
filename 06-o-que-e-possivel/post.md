@@ -10,7 +10,7 @@ Quase tudo que alguém pode fazer manualmente, um agent pode tentar fazer. Isso 
 
 Quando uma nova tecnologia fica acessível, a primeira pergunta que aparece é "o que ela consegue fazer?". É a pergunta certa para exploração inicial. É a pergunta errada para decisão de investimento.
 
-Projetos de IA agentic que conheço que falharam seguem um padrão. Alguém demonstrou que o agent conseguia fazer X em condições controladas. A decisão de implementar veio da demonstração, não de uma análise do que acontece quando X falha em produção. Seis meses depois, o sistema estava em manutenção constante por causa de casos que o demo nunca mostrou.
+Projetos de IA agentic que falham seguem um padrão. Alguém demonstra que o agent consegue fazer X em condições controladas. A decisão de implementar vem da demonstração, não de uma análise do que acontece quando X falha em produção. Meses depois, o sistema está em manutenção constante por causa de casos que o demo nunca mostrou.
 
 O viés do possível é real: se funciona uma vez, parece que vai funcionar sempre. Não funciona assim.
 
@@ -34,9 +34,9 @@ Tarefa com ambiguidade estrutural. Se dois especialistas humanos discordariam so
 
 Processo que muda frequentemente. Agent com prompt complexo que reflete um processo que muda a cada trimestre vai ficar desatualizado. O custo de manutenção vai superar o ganho de automação.
 
-## O critério que uso
+## O critério de decisão
 
-Uma pergunta direta que aplico antes de aprovar qualquer projeto de automação agentic: se o agent tomar a pior decisão possível nessa tarefa, o que acontece?
+Uma pergunta direta antes de aprovar qualquer projeto de automação agentic: se o agent tomar a pior decisão possível nessa tarefa, o que acontece?
 
 Se a resposta é "nada irreversível e o humano pode corrigir rápido", a delegação faz sentido com supervisão leve. Se a resposta é "dano significativo antes de alguém perceber", o nível de autonomia precisa ser menor ou o projeto precisa de arquitetura diferente.
 
