@@ -42,7 +42,7 @@ Primeiro: alucinação não é bug, é estrutura. A LLM traz o mais provável, n
 
 Segundo: inconsistência é esperada. Um parâmetro chamado temperatura introduz variação na escolha do próximo token. O mesmo prompt, em rodadas diferentes, pode gerar respostas distintas. Isso é útil para criatividade, problemático para análise que precisa de reprodutibilidade.
 
-Terceiro: contexto degrada. A janela de contexto tem limite. Em conversas longas, o wrapper consolida e resume o histórico para caber. O que parecia fixado pode desaparecer. Projetos que conheço que quebraram em produção quebraram aqui: lógica dependia de premissa estabelecida quinze turnos atrás que o sistema já não carregava inteira.
+Terceiro: contexto degrada. A janela de contexto tem limite. Em conversas longas, o wrapper consolida e resume o histórico para caber. O que parecia fixado pode desaparecer. Sistemas que quebram em produção têm um padrão reconhecível: lógica que depende de premissa estabelecida cedo na sessão, num ponto que a janela já não carrega inteira.
 
 Três hábitos que mudam a partir daí: contexto explícito em vez de implícito, instrução como contrato formal no início da sessão, verificação como etapa do processo e não como exceção.
 

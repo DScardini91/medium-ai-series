@@ -1,12 +1,12 @@
-# Meu agentic OS: o que aprendi construindo um sistema de agents para o meu próprio trabalho
+# Meu agentic OS: como um sistema de agents coordenados muda a lógica do trabalho
 
 ![Cover](https://raw.githubusercontent.com/DScardini91/medium-ai-series/main/05-meu-agentic-os/images/cover.png)
 
 ---
 
-Há cerca de um ano comecei a construir o que acabei chamando de agentic OS: um conjunto de agents especializados que coordenam trabalho de forma sistemática. Não é um projeto isolado. É a infraestrutura com que opero hoje.
+Construí o que chamo de agentic OS: um conjunto de agents especializados que coordenam trabalho de forma sistemática. Não é um projeto isolado. É infraestrutura.
 
-O que aprendi construindo e rodando ele muda o que diria para qualquer pessoa que está começando.
+O processo de construir e manter esse sistema mudou como penso sobre delegação e sobre o que vale automatizar.
 
 ## Um agent resolve uma tarefa. Um sistema resolve uma categoria.
 
@@ -28,7 +28,7 @@ A segunda é especialização. Cada agent tem um domínio claro: análise financ
 
 A terceira é o plano de controle. Quem decide o que fazer agora. Que agent acionar. Como integrar resultados. Em sistemas simples, o humano faz isso turno a turno. Em sistemas maduros, há um orquestrador que lê estado, distribui trabalho e integra resultados. Não é magia: é código e critérios explícitos.
 
-## O que aprendi rodando um
+## O que o sistema ensina ao ser construído
 
 Primeiro: a dificuldade está nos handoffs, não nos agents individuais. Cada agent funciona bem isolado. O problema aparece quando um precisa passar contexto para o outro sem perder fidelidade. Um briefing mal estruturado na saída de um agent produz retrabalho no próximo.
 
